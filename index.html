@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>何先财 - 前端开发工程师</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <header id="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">何<span>先财</span></a>
+                <ul class="nav-links">
+                    <li><a href="#hero" class="active">首页</a></li>
+                    <li><a href="#about">关于我</a></li>
+                    <li><a href="#experience">专业经历</a></li>
+                    <li><a href="#skills">技能</a></li>
+                    <li><a href="#projects">项目展示</a></li>
+                    <li><a href="#education">教育背景</a></li>
+                    <li><a href="#contact">联系方式</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 首屏展示 -->
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>我是<span>何先财</span></h1>
+                <h2>前端开发工程师 | 3年经验</h2>
+                <p>专注于构建现代化、高性能的Web应用程序，擅长Vue.js和React框架，致力于创造优秀的用户体验。</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn">查看项目</a>
+                    <a href="#contact" class="btn btn-outline">联系我</a>
+                </div>
+            </div>
+            <div class="hero-img">
+                <img src="https://images.unsplash.com/photo-1579389083078-4e7018379f7e?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Developer working">
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于我 -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">关于我</h2>
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Profile Image">
+                </div>
+                <div class="about-text">
+                    <h3>前端开发工程师</h3>
+                    <p>我是一名有3年经验的前端开发工程师，专注于构建现代化、响应式的Web应用程序。我对前端技术充满热情，喜欢学习新技术并将其应用到实际项目中。</p>
+                    <p>我擅长使用Vue.js和React框架开发复杂的单页应用，并注重代码质量、性能和用户体验。我习惯于与设计师和后端开发人员紧密合作，确保交付高质量的产品。</p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <strong>姓名:</strong>
+                            <span>何先财</span>
+                        </div>
+                        <div class="info-item">
+                            <strong>邮箱:</strong>
+                            <span>15655403332@163.com</span>
+                        </div>
+                        <div class="info-item">
+                            <strong>电话:</strong>
+                            <span>(+86) 17797249051</span>
+                        </div>
+                        <div class="info-item">
+                            <strong>地址:</strong>
+                            <span>北京市海淀区</span>
+                        </div>
+                        <div class="info-item">
+                            <strong>GitHub:</strong>
+                            <span>github.com/suqfeng</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 专业经历 -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title">专业经历</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2021.07 - 至今</div>
+                    <div class="timeline-content">
+                        <h3>ABC科技有限公司</h3>
+                        <h4>前端开发工程师</h4>
+                        <ul>
+                            <li>负责公司核心产品的前端架构设计与开发，使用 Vue3 + TypeScript 重构旧项目，提升代码可维护性</li>
+                            <li>主导开发后台管理系统，引入微前端架构，实现模块化开发和独立部署，团队开发效率提升30%</li>
+                            <li>优化前端性能，通过懒加载、代码分割、CDN加速等手段，首屏加载时间减少40%</li>
+                            <li>与产品、UI、后端团队协作，推动前端组件库建设，统一代码规范，减少重复开发工作量</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2020.03 - 2021.06</div>
+                    <div class="timeline-content">
+                        <h3>XYZ互联网公司</h3>
+                        <h4>前端开发实习生</h4>
+                        <ul>
+                            <li>参与移动端H5开发，使用 React + Redux 实现动态表单和可视化图表功能</li>
+                            <li>配合后端完成RESTful API对接，实现用户登录、数据交互等功能</li>
+                            <li>使用 Jest 编写单元测试，代码覆盖率提升至85%以上</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 技能 -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">专业技能</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>前端技术</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>HTML5/CSS3</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>JavaScript (ES6+)</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>TypeScript</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>前端框架</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Vue.js 2/3</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>React</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Nuxt.js</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>其他技能</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Webpack/Vite</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Git</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>前端性能优化</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 项目展示 -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">项目展示</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="E-commerce Platform">
+                    </div>
+                    <div class="project-info">
+                        <h3>电商平台</h3>
+                        <p>一个B2C电商平台，包含商品展示、购物车、支付等功能</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Vue3</span>
+                            <span class="tech-tag">TypeScript</span>
+                            <span class="tech-tag">Pinia</span>
+                            <span class="tech-tag">WebSocket</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#"><i class="fas fa-external-link-alt"></i> 查看演示</a>
+                            <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Admin Dashboard">
+                    </div>
+                    <div class="project-info">
+                        <h3>企业级后台管理系统</h3>
+                        <p>为公司内部运营人员提供数据管理和分析功能</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Ant Design</span>
+                            <span class="tech-tag">ECharts</span>
+                            <span class="tech-tag">Redux</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#"><i class="fas fa-external-link-alt"></i> 查看演示</a>
+                            <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Blog Platform">
+                    </div>
+                    <div class="project-info">
+                        <h3>个人技术博客</h3>
+                        <p>一个基于Nuxt.js的个人技术博客，分享前端开发经验和教程</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Nuxt.js</span>
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">Markdown</span>
+                            <span class="tech-tag">SSR</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#"><i class="fas fa-external-link-alt"></i> 查看演示</a>
+                            <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 教育背景 -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-title">教育背景</h2>
+            <div class="education-item">
+                <div class="education-date">2016.09 - 2021.06</div>
+                <div class="education-content">
+                    <h3>青海农牧科技职业技术学院</h3>
+                    <h4>财务管理 | 专科</h4>
+                    <p>主修课程：财务管理、成本会计、会计基础</p>
+                    <p>荣誉：校级优秀毕业生、财会竞赛第一名</p>
+                </div>
+            </div>
+            <div class="education-item">
+                <div class="education-date">证书 & 其他</div>
+                <div class="education-content">
+                    <ul>
+                        <li>英语：CET-6（流利读写）</li>
+                        <li>认证：阿里云前端开发认证（ACA）</li>
+                        <li>兴趣爱好：技术博客写作、开源项目贡献</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系方式 -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">联系方式</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>与我联系</h3>
+                    <p>如果您对我的工作感兴趣或有任何问题，请随时联系我。我通常会在一到两个工作日内回复。</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4>邮箱</h4>
+                                <p>15655403332@163.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <h4>电话</h4>
+                                <p>(+86) 17797249051</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4>地址</h4>
+                                <p>北京市海淀区</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/suqfeng" class="social-link" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-link" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-link" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link" target="_blank">
+                            <i class="fab fa-weixin"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="form">
+                        <div class="form-group">
+                            <label for="name">姓名</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">邮箱</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">主题</label>
+                            <input type="text" id="subject" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">消息</label>
+                            <textarea id="message" class="form-control" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">发送消息</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>何先财 - 前端开发工程师</p>
+                <div class="footer-links">
+                    <a href="#hero">首页</a>
+                    <a href="#about">关于我</a>
+                    <a href="#experience">经历</a>
+                    <a href="#projects">项目</a>
+                    <a href="#contact">联系</a>
+                </div>
+                <p class="copyright">&copy; 2023 何先财. 保留所有权利.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 返回顶部按钮 -->
+    <a href="#hero" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
